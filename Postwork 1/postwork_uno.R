@@ -16,6 +16,8 @@ library(dplyr) #select no sirve sin dplyr
 
 datos_fut <- select(datos_fut, FTHG, FTAG)
 
+head(datos_fut)
+
 # 3. Consultando table en consola
 
 ?table
