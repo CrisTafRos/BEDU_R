@@ -117,3 +117,5 @@ Resultado:
 34    5    4 0.000000000
 35    6    4 0.000000000
 ```
+
+[Descripción de preworks](https://github.com/CrisTafRos/BEDU_R) | [Postwork Siguiente](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%202) 
