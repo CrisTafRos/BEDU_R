@@ -1,4 +1,4 @@
-# Sesión 2. Manipulación de datos en R
+# SesiÃ³n 2. ManipulaciÃ³n de datos en R
 
 # 1. Importando datos de las temporadas 2017-2018, 2018-2019 y 2019-2020
 
@@ -16,7 +16,7 @@ datos_1 <- read.csv("Season17_18_SP.csv")
 datos_2 <- read.csv("Season18_19_SP.csv")
 datos_3 <- read.csv("Season19_20_SP.csv")
 
-#2. Obteniendo una mejor idea de las características
+#2. Obteniendo una mejor idea de las caracterÃ­sticas
 
 #Explorando df con str()
 str(datos_1)
@@ -59,12 +59,12 @@ head(datos_3)
 
 str(datos_1)
 
-# Problema: Al convertir a fecha, la fecha 19/07/17 se ve 0017-07-19, así que hay que agregar el "20"
+# Problema: Al convertir a fecha, la fecha 19/07/17 se ve 0017-07-19, asÃ­ que hay que agregar el "20"
 
-# Traté de extraer para después concatenar, pero es más laborioso
+# TratÃ© de extraer para despuÃ©s concatenar, pero es mÃ¡s laborioso
 # datos_1 <- mutate(datos_1, Fec1 = substr(datos_1$Date, start = 1, stop = 6))
 
-# Mejor concatené los elementos dentro de la fecha para posteriormente volverlos a almacenar
+# Mejor concatenÃ© los elementos dentro de la fecha para posteriormente volverlos a almacenar
 datos_1 <- mutate(datos_1, Date = paste(substr(datos_1$Date, 1, 6), "20", sep = "", substr(datos_1$Date, 7, nchar(datos_1$Date))))
 head(datos_1)
 
@@ -82,4 +82,5 @@ head(datos_3)
 # Termino con rbind para acumular los registros.
 
 datos_gral <- rbind(datos_1, datos_2, datos_3)
+summary(datos_gral)
 View(datos_gral)
