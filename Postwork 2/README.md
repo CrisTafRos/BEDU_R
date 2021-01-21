@@ -186,4 +186,10 @@ Aplicaremos summary para verificar que se haya aplicado el cambio
  3rd Qu.:2017-10-29                                         3rd Qu.:2.000   3rd Qu.:2.000                     
  Max.   :2018-05-20                                         Max.   :8.000   Max.   :6.000                     
 ```
+
+Guardamos el dataframe, ya que utilizaremos los datos para el siguiente postwork:
+```r
+write.csv(datos_gral, "Goals17_20.csv")
+```
+
 [Postwork Anterior](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%201) | [Postwork Siguiente](#) 
