@@ -84,3 +84,6 @@ head(datos_3)
 datos_gral <- rbind(datos_1, datos_2, datos_3)
 summary(datos_gral)
 View(datos_gral)
+
+# Guardamos el dataframe, ya que utilizaremos los datos para el siguiente dataframe
+write.csv(datos_gral, "Goals17_20.csv")
