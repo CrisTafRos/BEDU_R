@@ -8,3 +8,4 @@ O bueno, ejecutalo bajo tu propio riesgo. Advertido ya estás. :smiling_imp:
 
 - Postwork 1. [Introducción a R y Software (Github, Tipos de Datos)](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%201)
 - Postwork 2. [Manipulación de datos en R](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%202)
+- Postwork 3. [Análisis Exploratorio de Datos (AED o EDA) con R](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%203)
