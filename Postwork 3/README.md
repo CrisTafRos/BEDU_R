@@ -1,4 +1,4 @@
-# Postwork de la sesion 2. Manipulación de datos en R
+# Postwork de la sesion 3. Análisis Exploratorio de Datos (AED o EDA) con R
 
 **Contexto:** Nuevamente se toman los datos referentes a equipos de la liga española de futbol.
 
