@@ -192,4 +192,4 @@ Guardamos el dataframe, ya que utilizaremos los datos para el siguiente postwork
 write.csv(datos_gral, "Goals17_20.csv")
 ```
 
-[Postwork Anterior](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%201) | [Postwork Siguiente](#) 
+[Postwork Anterior](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%201) | [Postwork Siguiente](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%203) 
