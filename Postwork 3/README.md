@@ -156,4 +156,18 @@ Y por resultado nos da lo siguiente:
 62     5     8 0.000000000
 63     6     8 0.000000000
 ```
+**Primer heatmap**
+```r
+heatmap(table(datos_gral$FTHG, datos_gral$FTAG), col = terrain.colors(256), xlab = "FTAG", ylab = "FTHG", main = "Heatmap de probabilidades conjuntas")
+```
+**Segundo heatmap**
+```r
+library(ggplot2)
+
+ggplot(goles, aes(gol_a, gol_b, fill = probas)) + 
+  geom_tile() +
+  xlab(label = "FTHG") +
+  ylab(label = "FTAG") +
+  scale_fill_gradient(name = "Probabilidad Conjunta")
+```
 [Postwork Anterior](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%202) | [Postwork Siguiente](#) 
