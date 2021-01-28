@@ -160,6 +160,7 @@ Y por resultado nos da lo siguiente:
 ```r
 heatmap(table(datos_gral$FTHG, datos_gral$FTAG), col = terrain.colors(256), xlab = "FTAG", ylab = "FTHG", main = "Heatmap de probabilidades conjuntas")
 ```
+![alt text](https://github.com/CrisTafRos/BEDU_R/raw/main/Postwork%203/heatmap2.jpeg)
 **Segundo heatmap**
 ```r
 library(ggplot2)
@@ -170,6 +171,7 @@ ggplot(goles, aes(gol_a, gol_b, fill = probas)) +
   ylab(label = "FTAG") +
   scale_fill_gradient(name = "Probabilidad Conjunta")
 ```
+
 ![alt text](https://github.com/CrisTafRos/BEDU_R/raw/main/Postwork%203/heatmap.jpeg)
 
 [Postwork Anterior](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%202) | [Postwork Siguiente](#) 
