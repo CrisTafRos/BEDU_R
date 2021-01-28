@@ -161,6 +161,7 @@ Y por resultado nos da lo siguiente:
 heatmap(table(datos_gral$FTHG, datos_gral$FTAG), col = terrain.colors(256), xlab = "FTAG", ylab = "FTHG", main = "Heatmap de probabilidades conjuntas")
 ```
 ![alt text](https://github.com/CrisTafRos/BEDU_R/raw/main/Postwork%203/heatmap2.jpeg)
+
 **Segundo heatmap**
 ```r
 library(ggplot2)
