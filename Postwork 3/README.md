@@ -62,3 +62,5 @@ summary(goles)
 goles <- mutate(goles, probas = as.integer(probas))
 goles <- mutate(goles, probas = probas/nrow(datos_gral))
 ```
+
+[Postwork Anterior](https://github.com/CrisTafRos/BEDU_R/tree/main/Postwork%202) | [Postwork Siguiente](#) 
